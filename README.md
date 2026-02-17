@@ -12,10 +12,10 @@ ESC-50, FSD-Kaggle2018
 cd <AST_ROOT>/egs/~
 bash run_prepare.sh
 
-2) Stage 1: FP training (5-fold)
+2) Stage 1: FP training
 bash run_fp.sh
 
-3) Stage 2: QAT training (5-fold)
+3) Stage 2: QAT training 
 bash run_qat_baseline.sh
 
 4) Stage 2: QAT evaluation
