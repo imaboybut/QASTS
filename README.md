@@ -34,9 +34,13 @@ bash run_qasts.sh
 
 # Example bit configs
 bash run_robustness_eval.sh 4 4
+
 bash run_robustness_eval.sh 4 8
+
 bash run_robustness_eval.sh 8 8
+
 # Or use qat_config.yml
+
 bash run_robustness_eval.sh
 
 
