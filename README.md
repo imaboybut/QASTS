@@ -1,5 +1,5 @@
-# Quantized Audio Spectrogram Transformer Soup: Robustness and Deployment Efficiency
-# QASTS
+# QASTS (Quantized Audio Spectrogram Transformer Soup: Robustness and Deployment Efficiency)
+
 
 We gratefully acknowledge and reference the codebases of AST: Audio Spectrogram Transformer and OFQ: Oscillation-free Quantization for Low-bit Vision Transformers.
 
