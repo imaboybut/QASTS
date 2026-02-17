@@ -27,12 +27,11 @@ bash run_qat_mr.sh
 6) Baseline - Soup (no rate diversity, fixed 16k)
 bash run_soup_baseline.sh
 
-7) Ours - QASTS (rate diversity + frozen scales)
-   
-12/16/20/24/28kHz, 2 candidates per rate (total 10), fixed scale factors
+7) Ours - QASTS (rate diversity + frozen scales, 12/16/20/24/28kHz, 2 candidates per rate (total 10), fixed scale factors)
 bash run_qasts.sh
 
-9) Robustness comparison (unseen rates: 8/14/22/30/44.1kHz)
+8) Robustness comparison (unseen rates: 8/14/22/30/44.1kHz)
+
 # Example bit configs
 bash run_robustness_eval.sh 4 4
 bash run_robustness_eval.sh 4 8
