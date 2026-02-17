@@ -1,0 +1,48 @@
+model_type: 'deit'
+pretrained_initialized: True
+qmodules:
+  - "v.patch_embed.proj"
+  - "v.blocks.0.attn"
+  - "v.blocks.0.mlp"
+  - "v.blocks.1.attn"
+  - "v.blocks.1.mlp"
+  - "v.blocks.2.attn"
+  - "v.blocks.2.mlp"
+  - "v.blocks.3.attn"
+  - "v.blocks.3.mlp"
+  - "v.blocks.4.attn"
+  - "v.blocks.4.mlp"
+  - "v.blocks.5.attn"
+  - "v.blocks.5.mlp"
+  - "v.blocks.6.attn"
+  - "v.blocks.6.mlp"
+  - "v.blocks.7.attn"
+  - "v.blocks.7.mlp"
+  - "v.blocks.8.attn"
+  - "v.blocks.8.mlp"
+  - "v.blocks.9.attn"
+  - "v.blocks.9.mlp"
+  - "v.blocks.10.attn"
+  - "v.blocks.10.mlp"
+  - "v.blocks.11.attn"
+  - "v.blocks.11.mlp"
+  - "v.head_dist"
+  - "mlp_head.1"
+
+wq_enable: True
+wq_mode: 'lsq'
+wq_bitw: 8
+wq_asym: False
+wq_per_channel: False
+wq_clip_learnable: True
+
+aq_enable: True
+aq_mode: 'lsq'
+aq_bitw: 8
+aq_per_channel: False
+aq_clip_learnable: True
+
+act_layer: 'gelu'
+apply_q_attn_dropout: 0
+qk_reparam: False
+qk_reparam_type: 0

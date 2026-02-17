@@ -1,0 +1,9 @@
+timm==0.4.5
+scipy
+
+
+torch==2.2.0
+torchaudio==0.8.1
+torchvision==0.10.0
+wget==3.2
+zipp==3.4.1

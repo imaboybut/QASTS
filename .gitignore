@@ -1,0 +1,22 @@
+# weights / checkpoints
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.onnx
+
+# data & cache
+data/
+datasets/
+pretrained_models/
+__pycache__/
+*.pyc
+.cache/
+wandb/
+runs/
+outputs/
+log*/
+*.log
+
+# OS
+.DS_Store
